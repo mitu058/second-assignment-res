@@ -1,0 +1,68 @@
+
+@media screen and (max-width:576px){
+     .nav-bar,
+    .banner,
+     .banner-img,
+     .habit-container,
+     .banner-content,
+     .BMI-Container
+     
+      /* .hero-content,  */
+    {
+        flex-direction: column;
+        padding: 10px;
+       
+    } 
+    /* .nav-option{
+      display: none;
+   }
+  
+   .ham-burger{
+      display: block;
+      
+   }
+   .ham-burger i{
+      font-size: 26px;   
+   } */
+    .hero-container, .bmi-content{
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  
+    input, select{
+      font-size: 0.6rem;
+    }
+
+    .cal-chart{
+      margin-bottom: 10px;
+    }
+   .banner-content p,
+   .img-content p{
+   width: 50%;
+   }
+    .img-content{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .btn-primary, .downloap-app{
+        grid-template-columns: repeat(2, 1fr);
+    }
+      .row-1{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    .hero-content{
+        flex-direction: column;
+        display: grid;   
+    }
+ 
+ 
+  .fotter-content{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-title{
+    width: 100%;
+  }
+}
